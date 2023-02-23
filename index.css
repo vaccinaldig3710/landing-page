@@ -133,3 +133,49 @@ html, body {
     font-weight: 900;
     color: #1f2937;
 }
+
+.sec4 {
+    display: flex;
+
+    margin: 75px 10em 75px 10em;
+    background-color: #3882f6;
+    color: white;
+    justify-content: space-between;
+    border-radius: 5px;
+    height: 100px;
+}
+.sec4-left {
+    padding-left: 5em; 
+    align-self: center;  
+}
+.sec4-call {
+  font-size: 18px;
+  font-weight: 400;
+  padding-bottom: 0px;
+  margin: 0px;
+}
+.sec4-par {
+    font-size: 12px;
+    margin: 0px;
+}
+.sec4-button {
+    margin-right: 6em;
+    height: 30px;
+    align-self: center;
+    padding: 4px 30px 4px 30px;
+    border-radius: 6px;
+    border: 1px white solid;
+    background-color: #3882f6;
+    color: white;
+    font-weight: 600;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    height: 52px;
+    background-color: #1f2937;
+    color: white;
+    padding-top: 28px;
+    font-size: 12px;
+}
